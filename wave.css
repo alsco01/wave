@@ -1,0 +1,96 @@
+.initialAnimation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-flow: column wrap;
+}
+
+.intro-text {
+  font-family: "Helvetica";
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: -1;
+  margin: 0 auto;
+}
+.intro-text h1, .intro-text h2, .intro-text p {
+  padding-bottom: 20vh;
+}
+.intro-text h1 {
+  font-size: 4rem;
+}
+.intro-text h2 {
+  font-size: 1.5rem;
+}
+.water-jar {
+  max-height: 100%;
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*overflow: hidden;__>*/
+}
+.water-jar .water_wave_back {
+  right: 0;
+  fill: #C7EEFF;
+}
+.water-jar .water_wave_front {
+  left: 0;
+  fill: #4D6DE3;
+  margin-bottom: -1px;
+}
+
+.water_wave {
+  position: relative;
+  z-index: 9;
+}
+
+.water-container {
+  width: 100%;
+  height: 150%;
+}
+
+.water-filler {
+  position: relative;
+  top: -3px;
+  height: 100%;
+  width: 100%;
+}
+.water-filler-front {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: #4d6ce3;
+}
+.water-filler-back {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #C7EEFF;
+}
+
+.screen-transition {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.screen-transition .block {
+  width: 2px;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

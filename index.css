@@ -1,0 +1,411 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	border: 0;
+    margin:0;
+	padding: 0;
+    height:100%;
+	font-family: 'LotteMartDream', sans-serif;
+}
+
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff2') format('woff2'), 
+	  url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff2') format('woff2'), 
+	  url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff2') format('woff2'), 
+	  url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff') format('woff');
+}
+.lottemartdream * {
+ font-family: 'LotteMartDream', sans-serif;
+}
+s0{
+	border: solid 0px red;
+	width: 100%;
+	height: 100%;
+}
+#wa{
+	width: 50%;
+	height: auto;
+	float: left;
+	font-size: 132px;
+	font-weight: 1000;
+	color: #060018;
+	margin-top: 9%;
+	margin-left: 8%;
+}
+
+#ve{
+	width: 50%;
+	height: auto;
+	float: left;
+	font-size: 14px;
+	margin-top: 25%;
+	margin-left: 8%;
+}
+#wave{
+	border: solid 0px black;
+	width: 120%;
+	height: 120%;
+	float: right;
+	position: absolute;
+	top: -20%;
+	right: -50%;
+	background-image: url(icon/bubble.gif);
+	background-repeat: no-repeat;
+	background-size: 65%;
+}
+
+
+.s1{
+	border: solid 0px red;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+
+:root{
+  --background-dark: #DCE0E9;
+  --text-light: rgba(255,255,255,0.6);
+  --text-lighter: rgba(255,255,255,0.9);
+  --width-container: 1200px;
+}
+
+.hero-section{
+  margin: 0 5%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #FFFFFF;
+  display: flex;
+  min-height: 100%;
+  justify-content: center;
+}
+
+
+.card-grid{
+  	border: solid 0px pink;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    max-width:100%;
+    width: 100%;
+}
+
+
+.card{
+  border: solid 0px #008072;
+	border-left: solid 1px gray;
+  list-style: none;
+  position: relative;
+  height: 100%;
+}
+.card:nth-child(4){
+	border-right: solid 1px gray;
+
+}
+.card__content{
+  border: solid 0px purple;
+  padding: 65px;
+  position: absolute; 
+  top: 0;
+  left: 0;
+}
+
+.card__heading{
+  color: #26282C;
+  font-size: 32px;
+  text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+  line-height: 1;
+  letter-spacing: 1.1px;
+  margin-top: 140px;
+}
+
+.card__category{
+  color: #26282C;
+  font-size: 18px;
+  margin-top: 1px;
+  text-transform: uppercase;
+}
+
+.boximg1{
+	width: 70px;
+	height: 70px;
+	margin-top: 320px;
+	margin-bottom: 50px;
+}
+
+
+.s2{
+	border: solid 0px red;
+	width: 100%;
+	height: 100%;
+}
+
+#gra{
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-left: 5%;
+	margin-top: 5%;
+	font-size: 36px;
+	font-weight: 900;
+}
+#stu{
+	border: solid 0px pink;
+	display: flex;
+	float: left;
+	margin-top: 2%;
+	width: 100%;
+	height: 70%;
+}
+#ta{
+	border: solid 0px pink;
+	border-spacing: 0;
+	float: left;
+	width: 66%;
+	height: 100%;
+	margin: auto;
+}
+
+#ta>td{
+	border: solid 0px #008072;
+	border-left: solid 1px gray;
+}
+td>img{
+	border: solid 1px gray;
+	width: 55px;
+	height: 55px;
+	float: left;
+}
+#name1{
+	width:40%;
+	float: left;
+	font-size: 17px;
+	font-weight: 1000;
+	margin-top: 2.8%;
+	margin-left: 3.5%;
+}
+#email1{
+	width:40%;
+	float: left;
+	font-size: 12px;
+	font-weight: 600;
+	display: block;
+	margin-top: 0;
+	margin-left: 3.5%;
+}
+
+#gra2{
+	display: none;
+}
+#stu2{
+	display: none;
+}
+#ta2{
+	display: none;
+	}
+
+
+.s3{
+	width: 100%;
+	height: 100%;
+}
+
+
+#vi{
+	float: left;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+#vi video{
+	margin: auto;
+	width: 50%;
+	height: 55%;
+}
+
+
+
+
+@media all and (min-width:769px) and (max-width:1366px)
+{
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+	
+#wa{
+	font-size: 11em;
+	font-weight: bolder;
+	margin-top: 180px;
+	margin-left: 120px;
+}
+
+#ve{
+	font-size: 12px;
+	margin-top: 480px;
+	margin-left: 120px;
+}
+	
+#wave{
+	width: 1600px;
+	height: 1600px;
+	top: -350px;
+	right: -650px;
+}
+#gra{
+	margin-left: 230px;
+	margin-top: 100px;
+}
+#ta{
+	border: solid 0px pink;
+	float: left;
+	width: 80%;
+	height: 90%;
+	margin: auto;
+}	
+}
+
+
+
+
+@media all and ( max-width : 768px )
+{
+#wa{
+	font-size: 4em;
+	font-weight: bolder;
+	margin-top: 40%;
+	margin-left: 7%;
+}
+
+#ve{border: solid 0px red;
+	width: 50%;
+	font-size: 10px;
+	margin-top: 100%;
+	margin-left: 7%;
+}
+	
+#wave{
+	width: 160%;
+	height: 105%;
+	float: right;
+	position: absolute;
+	top: -5%;
+	right: 0%;
+	background-image: url(icon/bubble.gif);
+	background-repeat: no-repeat;
+	background-size: 200%;
+	opacity: 80%;
+}
+
+
+.card{
+  border: solid 1px gray;
+  height: 100%;
+}
+.hero-section{
+  margin: 0 ;
+	}
+.card-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+.boximg1{
+	width: 40px;
+	height: 40px;
+	margin-top: 110px;
+	margin-bottom: 70px;
+}
+.card__content{
+  padding: 32px;
+}
+
+.card__heading{
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 0;
+  letter-spacing: 0px;
+}
+
+.card__category{
+  font-size: 12px;
+  margin-top: 0px;
+}
+#gra{
+	display: none;
+}
+#stu{
+	display: none;
+}
+#ta{
+	display: none;
+	}
+
+caption{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 15%;
+}
+#stu2{
+	border: solid 1px red;
+	display: inherit;
+    background-image: url("모바일.png");
+	background-size: cover;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+	/*
+#stu2{
+	border: solid 1px blue;
+	display: inherit ;
+	float: left;
+	margin: 35% 0;
+	width: 100%;
+	height: 70%;
+}
+#ta2{
+	border: solid 1px black;
+	display: inherit;
+	text-align: center;
+	border-spacing: 0;
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	}
+
+#name2{
+	font-size: 13px;
+	font-weight: 700;
+	}
+#email2{
+	font-size: 8px;
+	}
+*/
+
+#vi video{
+	margin: auto;
+	width: 80%;
+	height: 30%;
+	overflow:hidden;
+	max-width:100%;
+	}
+}
+
+
